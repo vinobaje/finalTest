@@ -86,6 +86,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Next";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -100,6 +101,7 @@
             this.Controls.Add(this.FirstNameText);
             this.Name = "Form1";
             this.Text = "Generate";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

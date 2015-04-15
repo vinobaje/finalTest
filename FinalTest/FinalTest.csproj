@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EndForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EndForm.Designer.cs">
+      <DependentUpon>EndForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="fName.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -52,10 +58,22 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="LName.cs" />
+    <Compile Include="NextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NextForm.Designer.cs">
+      <DependentUpon>NextForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EndForm.resx">
+      <DependentUpon>EndForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NextForm.resx">
+      <DependentUpon>NextForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
